@@ -9,7 +9,9 @@
 
 **3. Streamlit Integration:**
 - [x] Integrated Streamlit for testing the chatbot interface.
-   ![Streamlit Interface](streamlit_interface.png)
+   ![Streamlit Interface](test1.jpeg)
+   ![Streamlit Interface](test2.jpeg)
+   ![Streamlit Interface](test3.jpeg)
 
 **4. LangChain Integration:**
 - [x] Integrated LangChain for multilingual support.
