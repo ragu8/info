@@ -68,19 +68,20 @@ To set up and run this project locally, follow these steps:
   
   **`Setup Script`**
      ```
-     chmod +x Setup/setup_env.sh
-    ./Setup/setup_env.sh
-    ```
+       chmod +x Setup/setup_env.sh
+       ./Setup/setup_env.sh
+     ```
 5. Ngrok setup
    - The steps below are taken from the [Ngrok Documentation](https://ngrok.com/docs/integrations/whatsapp/webhooks/)
    **`Setup Script`**
-     ```
+   ```
     chmod +x Setup/setup_ngrok.sh
     ./Setup/setup_ngrok.sh
-     ``` 
+   ``` 
 6.  Select Phone Numbers
 
     - Make sure WhatsApp is added to your App.
+      
      ![PhoneNumber](path_to_your_image.png)
       
 7. Configure Webhooks to Receive Messages
@@ -88,13 +89,18 @@ To set up and run this project locally, follow these steps:
    **`Start app`**
 
     - Make you have a python installation or environment and install the requirements: pip install -r requirements.txt
-    - Run your Flask app locally by executing run.py
+    - Run your Flask app locally by executing **`run.py`**
+      ```
+      python3 run.py
+      ``` 
 
-   **`Launch ngrok`**
-
-   
-     ```
+   **`Launch ngrok`**  
+      ```
       ngrok http 8000 --domain your-domain.ngrok-free.app
-     ``` 
-    
+      ``` 
+
+## Finally, Test Your WhatsApp Integration
+
+  - After setting up your Flask app, Ngrok with a static domain, and configuring webhooks in the Meta Developer Console,
+  ![demo](path_to_your_image.png)
 
