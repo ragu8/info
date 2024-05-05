@@ -55,7 +55,7 @@ To set up and run this project locally, follow these steps:
    ```
 4. Configuration:
    
-- Before running the application, ensure that the following environment variables are configured in the .env file:
+   - Before running the application, ensure that the following environment variables are configured in the .env file:
 
     - ACCESS_TOKEN: Token that expires after 24 hours 
     - APP_ID: Your application's ID
@@ -68,15 +68,15 @@ To set up and run this project locally, follow these steps:
   
   **`Setup Script`**
    ```
-   chmod +x setup_env.sh
-   ./setup_env.sh
+   chmod +x Setup/setup_env.sh
+   ./Setup/setup_env.sh
    ```
 5. Ngrok setup
-- Before running Ngrok, set up your Ngrok account, configure a custom subdomain (static domain), and obtain the Ngrok authentication token (NGROK_AUTH_TOKEN).
+  - Before running Ngrok, set up your Ngrok account, configure a custom subdomain (static domain), and obtain the Ngrok authentication token (NGROK_AUTH_TOKEN).
   
    **`Setup Script`**
    ```
-   chmod +x setup_ngrok.sh
-   ./setup_ngrok.sh
+   chmod +x Setup/setup_ngrok.sh
+   ./Setup/setup_ngrok.sh
    ``` 
 
